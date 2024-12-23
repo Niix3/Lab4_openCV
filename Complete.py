@@ -94,7 +94,7 @@ def morphology_operations(image):
 
 # Пример использования:
 if __name__ == "__main__":
-    filepath = "example.jpg"
+    filepath = "123.jpg"
     image = read_image(filepath)
     gray_image = convert_to_grayscale(image)
     thresh_image = threshold_image(gray_image, 127)
@@ -102,17 +102,19 @@ if __name__ == "__main__":
     edges = detect_edges(gray_image, method='canny')
     transformed_image = affine_transform(image)
 
-    template_path = "template.jpg"
-    template = read_image(template_path)
-    matched_image = template_matching(image, template)
+    # template_path = "template.jpg"
+    # template = read_image(template_path)
+    # matched_image = template_matching(image, template)
 
     morphed_image = morphology_operations(thresh_image)
 
     # Сохраняем результаты для визуализации
-    cv2.imwrite("gray_image.jpg", gray_image)
-    cv2.imwrite("thresh_image.jpg", thresh_image)
-    cv2.imwrite("filtered_image.jpg", filtered_image)
-    cv2.imwrite("edges.jpg", edges)
-    cv2.imwrite("transformed_image.jpg", transformed_image)
-    cv2.imwrite("matched_image.jpg", matched_image)
-    cv2.imwrite("morphed_image.jpg", morphed_image)
+    # cv2.imwrite("gray_image.jpg", gray_image)
+    # cv2.imwrite("thresh_image.jpg", thresh_image)
+    # cv2.imwrite("filtered_image.jpg", filtered_image)
+    # cv2.imwrite("edges.jpg", edges)
+    # cv2.imwrite("transformed_image.jpg", transformed_image)
+    # cv2.imwrite("matched_image.jpg", matched_image)
+    cv2.imshow("morphed_image.jpg", morphed_image)
+
+    cv2.waitKey(0)

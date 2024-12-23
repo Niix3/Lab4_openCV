@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc86e4b6-1518-40f9-abd3-68fa1ce6c8da" name="Changes" comment="Added some functionality" />
+    <list default="true" id="fc86e4b6-1518-40f9-abd3-68fa1ce6c8da" name="Changes" comment="Added some functionality">
+      <change beforePath="$PROJECT_DIR$/.idea/Lab4_openCV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab4_openCV.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/Complete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Niix3"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Niix3/Lab4_openCV.git",
+    "accountId": "11601de1-6517-472d-92c1-99782f82dcb0"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2qaFBiVmgX5eqXyrWMnZLKoNvKd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,10 +48,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Complete.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Дарья/PycharmProjects/Lab4_openCV",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
@@ -65,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c69650fc56ca-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15619.17" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
